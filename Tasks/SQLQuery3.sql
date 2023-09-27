@@ -28,5 +28,8 @@ customer_id INT PRIMARY KEY IDENTITY (1, 1),
 	street VARCHAR (255),
 	city VARCHAR (50),
 	state VARCHAR (25),
-	zip_code VARCHAR (5)
+	zip_code VARCHAR (5),
+
+	--(another-way) constraint primaryKeyId PRIMARY KEY(customer_id )
 );
+
